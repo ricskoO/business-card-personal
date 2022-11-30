@@ -1,0 +1,63 @@
+.body {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 60px;
+}
+
+.card {
+
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+
+    margin: 0px auto;
+    padding: 0px 35px;
+
+    text-align: center;
+    color: #caf0f8;
+    background-color: #0096c7;
+
+    border-bottom: 7px solid #48cae4;
+    border-right: 7px solid #48cae4;
+
+    border-radius: 10px;
+
+
+}
+
+.img {
+
+    width: 120px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px #caf0f8;
+
+
+}
+
+.text {
+
+    margin: 10px 15px;
+
+}
+
+.name {
+
+    color: #03045e;
+    border-radius: 15px;
+    padding: 5px 3px;
+    opacity: 1;
+    transition: 0.3s;
+
+}
+
+.detail {
+
+    text-shadow: 0 0 3px #03045e;
+
+}
+
+.name:hover {
+
+    background-color: #48cae4;
+}
